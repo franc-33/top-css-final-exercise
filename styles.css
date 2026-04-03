@@ -144,5 +144,100 @@ body {
     object-fit: cover;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+}
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+    border: solid red;
+    margin: 0 50px;
+}
+
+.quote-container h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    border: solid red;
+
+}
+
+.quote-container p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+    border: solid red
+}
+
+.sign-container {
+    /* border: solid red; */
+}
+
+.sign-box{
+    margin: 0 50px;
+    
+    border: solid red;
+}
+
+.sign-box2 {
+    border: solid magenta;
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 70px;
+    border-radius: 15px;;
+}
+
+.sign-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+    border: solid red;
+}
+
+.sign-message h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
+    color: white;
+    border: solid red;
+}
+
+.sign-message p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+    color: white;
+    border: solid red;
+}
+
+.sign-box2 button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    padding: 1px 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
 
